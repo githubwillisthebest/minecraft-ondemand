@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Required Environment Variables
+## Required Environment Variabless
 
 [ -n "$CLUSTER" ] || { echo "CLUSTER env variable must be set to the name of the ECS cluster" ; exit 1; }
 [ -n "$SERVICE" ] || { echo "SERVICE env variable must be set to the name of the service in the $CLUSTER cluster" ; exit 1; }
